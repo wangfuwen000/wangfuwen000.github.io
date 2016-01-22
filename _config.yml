@@ -3,9 +3,10 @@
 # ----------------------- #
 
 url: http://wangfuwen000.github.io
-title: My Octopress Blog
+#title: My Octopress Blog
+title: 文艺博客
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: 王富文
 simple_search: https://www.google.com/search
 description:
 
@@ -19,7 +20,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email:wanfuwen000@163.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
