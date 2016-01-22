@@ -15,17 +15,25 @@
 	{% if site.google_plus_one %}
 	<a class="addthis_button_google_plusone_share"></a>
 	{% endif %}
-
-	  <!-- 添加到相应的位置，twitter google+ 前后皆可 -->
-  	{% if site.jiathis_share %}
-  	<div class="jiathis_style_24x24" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block;  background: transparent;">
-    	<a class="jiathis_button_weixin"></a>
-    	<a class="jiathis_button_tsina"></a>
-  	</div>
-  	{% endif %}
-
 	<a class="addthis_button_compact"></a>
 	<a class="addthis_counter addthis_bubble_style"></a>
+	
+	{% if site.jiathis %}
+  <!-- JiaThis Button BEGIN -->
+  <div class="jiathis_style">
+    <span class="jiathis_txt">分享到：</span>
+    <a class="jiathis_button_tsina">新浪微博</a>
+    <a class="jiathis_button_googleplus">Google+</a>
+    <a class="jiathis_button_renren">人人网</a>
+    <a class="jiathis_button_qzone">QQ空间</a>
+    <a class="jiathis_button_tqq">腾讯微博</a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+    <a class="jiathis_counter_style"></a>
+  </div>
+  <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js?uid=1334720487296344" charset="utf-8"></script>
+  <!-- JiaThis Button END -->
+{% endif %}
+
 	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_profile_id }}"></script>
+ 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_profile_id }}"></script>
 </div>
