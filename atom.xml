@@ -4,7 +4,7 @@
   <title><![CDATA[文艺斋]]></title>
   <link href="http://wangfuwen000.github.io/atom.xml" rel="self"/>
   <link href="http://wangfuwen000.github.io/"/>
-  <updated>2016-01-22T15:36:27+08:00</updated>
+  <updated>2016-01-22T15:58:02+08:00</updated>
   <id>http://wangfuwen000.github.io/</id>
   <author>
     <name><![CDATA[王富文]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[测试文章哈哈哈]]></title>
+    <link href="http://wangfuwen000.github.io/blog/2016/01/22/ce-shi-wen-zhang-ha-ha-ha/"/>
+    <updated>2016-01-22T15:57:50+08:00</updated>
+    <id>http://wangfuwen000.github.io/blog/2016/01/22/ce-shi-wen-zhang-ha-ha-ha</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[新文章名称]]></title>
